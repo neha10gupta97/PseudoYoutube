@@ -4,6 +4,9 @@
 }
 .search-bar input{
   width: 75%;
+  height: 35px;
+  font-size: 1.1em;
+  /* border-radius: 5px; */
 }
 .video-item img{
   max-width: 64px;
@@ -14,8 +17,16 @@
   border: 1px solid #ddd;
   border-radius: 4px;
 }
+.video-detail .detail-title{
+  font-weight: bold;
+}
+.list-group{
+  padding-left: .9375rem !important;
+}
 .list-group-item{
   cursor: pointer;
+  margin-bottom: 10px !important;
+  border-radius: .25rem;
 }
 .list-group-item:hover{
   background-color: #eee;
